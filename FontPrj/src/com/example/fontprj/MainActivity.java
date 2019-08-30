@@ -16,6 +16,9 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         TextView tv = (TextView) findViewById(R.id.tv1);
         Typeface tf=Typeface.createFromAsset(getAssets(), "fonts/myfont-Regular-CBDT.otf");
+        String s ="sss";
+        
+        String s1 ="sss";
         tv.setTypeface(tf);
        
     }
